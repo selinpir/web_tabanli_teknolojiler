@@ -1,0 +1,35 @@
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #571d91;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+a:active {
+  color: rgb(60, 0, 255);
+  background-color: transparent;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 10px; /* İç boşluk ayarı */
+    background-color: #af4c91; 
+    color: white; /* Yazı rengi */
+    border-radius: 1px; /* Kenarları yuvarlatıyoruz */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Geçiş efektleri */
+}
+
+.button:hover {
+    background-color: #571d91; 
+    transform: scale(1.7); /* Buton üzerine gelince biraz büyütüyoruz */
+}
